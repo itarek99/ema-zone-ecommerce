@@ -1,0 +1,47 @@
+.shop {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 2rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+  padding-inline: 0.5rem;
+}
+
+.cart {
+  background-color: #fdb643;
+}
+
+.review-cart-btn {
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgba(19, 158, 250, 0.85);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.review-cart-btn:hover {
+  background-color: #139efa;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

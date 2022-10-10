@@ -1,0 +1,52 @@
+.product {
+  position: relative;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.product__img {
+  width: 100%;
+}
+
+.product__details {
+  padding-inline: 0.5rem;
+}
+
+.product__title {
+  margin-bottom: 0.8rem;
+}
+
+.product__price,
+.product__seller,
+.product__rating {
+  margin-block: 8px;
+}
+
+.product__rating {
+  margin-bottom: 3.5rem;
+}
+
+.add-btn {
+  position: absolute;
+  bottom: 0;
+  font-size: 1.1rem;
+  font-family: inherit;
+  line-height: 1;
+  width: 100%;
+  padding: 0.7rem 0.5rem;
+  background-color: #fdb643;
+  border: none;
+  outline: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #fb9900;
+}

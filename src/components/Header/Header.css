@@ -1,0 +1,38 @@
+.header {
+  height: 80px;
+  background-color: #1c2b35;
+}
+
+.band-logo {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1;
+  margin: 0%;
+}
+
+.nav-bar {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-inline: 0.5rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+  transition: color 0.2s ease-out;
+}
+
+.nav-link:hover {
+  color: #fb9900;
+}

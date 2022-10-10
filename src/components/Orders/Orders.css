@@ -1,0 +1,9 @@
+.orders {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+}
+
+.orders-item {
+  margin-top: 5rem;
+  margin-inline: 5rem;
+}

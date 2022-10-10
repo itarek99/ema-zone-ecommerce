@@ -1,0 +1,27 @@
+.cart-body {
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+}
+
+.clear-cart-btn,
+.place-order-btn {
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.clear-cart-btn {
+  background-color: rgba(250, 31, 19, 0.9);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.clear-cart-btn:hover {
+  background-color: #fa2013;
+}
