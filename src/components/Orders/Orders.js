@@ -18,14 +18,14 @@ const Orders = () => {
 
   const removeItemHandler = (id) => {
     removeFromDb(id);
-    setCart(cart.filter((item) => item.id !== id));
+    setCart(cart.filter((item) => item._id !== id));
   };
 
   return (
     <div className='orders container'>
       <div className='orders-item'>
         {cart.map((item) => (
-          <OrdersItem removeItemHandler={removeItemHandler} key={item.id} item={item}></OrdersItem>
+          <OrdersItem removeItemHandler={removeItemHandler} key={item._id} item={item}></OrdersItem>
         ))}
 
         {cart.length === 0 && (

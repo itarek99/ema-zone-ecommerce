@@ -34,6 +34,30 @@
   background-color: #139efa;
 }
 
+.pagination {
+  margin-inline: auto;
+  margin-bottom: 3rem;
+}
+
+.pagination button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  font-weight: bold;
+  border-radius: none;
+  border: 0.5px solid #777;
+  background-color: white;
+}
+
+.pagination button:not(:last-child) {
+  border-right: none;
+}
+
+.pagination .selected {
+  background-color: #fdb643;
+  color: white;
+}
+
 @media only screen and (max-width: 1199.98px) {
   .products {
     grid-template-columns: repeat(2, 1fr);
